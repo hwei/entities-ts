@@ -1,0 +1,9 @@
+{
+    "mocha.files.glob": "tests/**/*.ts",
+    "mocha.requires": [
+        "ts-node/register"
+    ],
+    "mocha.env": {
+        "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"commonjs\"}"
+    }
+}
